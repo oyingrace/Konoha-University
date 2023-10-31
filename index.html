@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konoha University</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/6a646fb776.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+    <a href="#" class="h-logo"><img src="logo2.png" alt=""></a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+     <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+     </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h4>Learn <span class="h-col">Web3,</span> Build and <br>Network at </h4><br>
+            <h1><span class="h-col">Konoha</span> University<br><br></h1>
+           
+            <a href="#" class="home-btn">Enroll Now</a>
+        </div>
+       
+    </section>
+
+<!--courses-->
+<section class="events">
+    <div class="title">
+        <h1 id="courses">Explore Our Courses</h1><br>
+        <h5 id="exp">We offer <span class="h-col">on-demand</span>
+             courses that will put you <span class="h-col">10x</span> ahead</h5>
+        <div class="btn-container" id="exp">
+        <a href="#exp" class="btn btn2" onclick="showOrHide()">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+    </div>
+        <div id="elementToWorkOn">
+            <div class="c-box">
+                <p>Degen Trading</p>
+                <p>NFT Trading</p>
+                <p>Defi Onchain Analysis</p>
+                <p>Web3 Security</p>
+                <p>Crypto Trading</p>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="row swiper-wrapper">
+    
+            <div class="col swiper-slide" >
+                 <img src="earth.jpg" alt="img" class="img-size">
+                <p>Earth Clan: Airdrop and Discord Grinding</p>
+            </div>
+
+           <div class="col swiper-slide">
+                <img src="iron.jpg" alt="img" class="img-size">
+               <p>Iron Clan: Devs and Code Masters</p>
+            </div>
+              
+            <div class="col swiper-slide">
+                <img src="fire.jpg" alt="img" class="img-size">
+               <p>Fire Clan: Devs and Code Masters</p>
+            </div>
+             
+            <div class="col swiper-slide">
+                <img src="water.jpg" alt="img" class="img-size">
+               <p>Water Clan: Devs and Code Masters</p>
+            </div>
+
+           </div>
+           
+       </div>
+     
+      <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+  
+    </div>
+</section>
+
+
+
+<!--categories section-->
+<div class="categories">
+    <h1>Join 10000+ Students Innovate the Web3 Future</h1>
+    <div class="box">
+
+        <div class="service">
+            <i class="fa-solid fa-toolbox"></i>
+            <p>Get hands-on approach tools and resources</p>
+        </div>
+
+        <div class="service">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <p>Get access to one-on-one sessions with expert tutors</p>
+        </div>
+
+        <div class="service">
+            <i class="fa-solid fa-handshake"></i>
+            <p>Create or get your web3 dream job</p>
+        </div>
+
+    </div>
+    <div class="btn-container">
+        <a href="#" class="btn3 btn2">Join our ongoing semester<span><i class="fa-solid fa-arrow-right"></i></span></a>
+    </div>
+</div>
+
+
+
+<!--testimonial section-->
+<section class="testimonials">
+    <div class="containerr">
+          <div class="section-header">
+            <h1 class="titlee">What Our Students Say</h1>
+            <p>Hear from our students, their journey and experience</p>
+          </div>
+          <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="avatar1.jpg" class="t-img">
+                        <div class="text-box">
+                            <h3 class="name">Lilliegrace</h3>
+                            <span class="niche">
+                                blockchain developer
+                            </span>
+                        </div>
+                    </div>
+                    <p>I'm grateful for the opportunities that blockchain has provided me</p>
+                </div>
+              
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="avatar2.jpg" class="t-img">
+                        <div class="text-box">
+                            <h3 class="name">Dk Moon</h3>
+                            <span class="niche">
+                                Defi Researcher
+                            </span>
+                        </div>
+                    </div>
+                    <p>I'm grateful for the opportunities that blockchain has provided me</p>
+                </div>
+              
+                <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <img src="avatar3.jpg" class="t-img">
+                        <div class="text-box">
+                            <h3 class="name">Vicky X</h3>
+                            <span class="niche">
+                               Community Moderator
+                            </span>
+                        </div>
+                    </div>
+                    <p>I'm grateful for the opportunities that blockchain has provided me</p>
+                </div>
+              
+            </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+          </div>
+    </div>
+</section>
+
+
+
+
+<!--faq section-->
+<div class="faq-section">
+<div class="wrapper">
+    <h1 id="faqs">Frequently Asked Questions</h1>
+
+    <div class="faq active">
+        <button class="accordion">
+            <p>Is konoha an Online University?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="panel">
+            <p>Yes, Konoha is an online university</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <button class="accordion">
+            <p>Can I join Virtually</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="panel">
+            <p>Yes, Konoha is an online university</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <button class="accordion">
+            <p>Is konoha an Online University?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="panel">
+            <p>Yes, Konoha is an online university</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <button class="accordion">
+            <p>Is konoha an Online University?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="panel">
+            <p>Yes, Konoha is an online university</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--footer-->
+<footer id="contact">
+    <div class="f-row">
+        <div class="f-col">
+            <img src="logo.png" class="f-logo">
+        </div>
+        <div class="f-col">
+        <h3>Links</h3>
+        <ul>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#courses">Courses</a></li>
+            <li> <a href="#faqs">FAQs</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+        <div class="f-col">
+            <h3>Newsletter</h3>
+        
+            <form>
+                <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div class="social-icons">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+
+          </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Konoha <i class="fa fa-copyright" aria-hidden="true"></i> 2023. All rights reserved</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
